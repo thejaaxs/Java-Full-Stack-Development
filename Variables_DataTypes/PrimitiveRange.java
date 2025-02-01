@@ -7,6 +7,7 @@ public class PrimitiveRange {
     public static void main(String[] args) {
         System.out.println("The Byte Range : "+"Maximum : "+Byte.MAX_VALUE+" & Minimum : "+Byte.MIN_VALUE);
         System.out.println("The Integer Range : "+"Maximum : "+Integer.MAX_VALUE+" & Minimum : "+Integer.MIN_VALUE);
-        System.out.println("This Float Range : "+"Maximum : "+Float.MAX_VALUE+" & Minimum : "+Float.MIN_VALUE);
+        System.out.println("The Float Range : "+"Maximum : "+Float.MAX_VALUE+" & Minimum : "+Float.MIN_VALUE);
+        System.out.println("The Double Range : "+"Maximum : "+Double.MAX_VALUE+" & Minimum : "+Double.MIN_VALUE);
     }
 }
