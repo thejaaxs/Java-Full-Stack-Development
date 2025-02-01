@@ -1,7 +1,7 @@
 package Variables_DataTypes ;
 
 // The List of all Data Types and their maximum and the minimum Ranges ! 
-// The Data Types are : Byte , Integer , Character , Double , Float , Short , Long etc ! 
+// The Data Types are : Byte , Integer , Character , Double , Float , Short , Long etc !
 
 public class PrimitiveRange {
     public static void main(String[] args) {
