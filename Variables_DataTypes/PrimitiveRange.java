@@ -9,5 +9,6 @@ public class PrimitiveRange {
         System.out.println("The Integer Range : "+"Maximum : "+Integer.MAX_VALUE+" & Minimum : "+Integer.MIN_VALUE);
         System.out.println("The Float Range : "+"Maximum : "+Float.MAX_VALUE+" & Minimum : "+Float.MIN_VALUE);
         System.out.println("The Double Range : "+"Maximum : "+Double.MAX_VALUE+" & Minimum : "+Double.MIN_VALUE);
+        System.out.println("The Character Range : "+"Maximum  : "+(int)Character.MAX_VALUE+" & Minimum : "+(int)Character.MIN_VALUE);
     }
 }
