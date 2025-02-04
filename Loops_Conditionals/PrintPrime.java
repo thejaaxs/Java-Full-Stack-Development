@@ -1,4 +1,4 @@
-// Printing the Prime Numbers from 1 to N 
+// Printing the Prime Numbers from 1 to N !
 
 package Loops_Conditionals;
 
