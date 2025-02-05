@@ -1,3 +1,5 @@
+// Program to print the Pascal Triangle !
+
 package Loops_Conditionals;
 
 import java.util.Scanner ;
