@@ -1,3 +1,5 @@
+// The Program to Print the Sum of Even and odd digits in a Number !
+
 package Loops_Conditionals;
 
 import java.util.Scanner ;
