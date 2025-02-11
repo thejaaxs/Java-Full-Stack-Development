@@ -11,7 +11,7 @@ class Vehicle {
         this.speed = speed;
     }
 
-    void show() {
+    public void show() {
         System.out.println("Type: " + type + "\nSpeed: " + speed);
     }
 }
