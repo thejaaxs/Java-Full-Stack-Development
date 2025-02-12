@@ -14,10 +14,10 @@ public class StringVsStringBuilder {
         startTime = System.currentTimeMillis();
         String str = "";
         for(int i=0;i<10000;i++){
-            str+=i;
+            str +=i;
         }
         endTime = System.currentTimeMillis();
-        System.out.println("Time taken using the Strings : "+(startTime-endTime)+" ms");
+        System.out.println("Time taken using the String ("+str+") : "+(startTime-endTime)+" ms");
 
         // Using the String Builder 
         startTime = System.currentTimeMillis();
