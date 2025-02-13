@@ -23,9 +23,15 @@ class BankAcc{
             System.out.println("Withdraw Amount is "+Amount+" , New Balance is "+Balance);
         }
     }
+    public void displayAccountNumber(){
+        System.out.println("The Account Number is : "+AccountNumber);
+    }
     // public double Balance(){
     //     return Balance ;
     // }
+
+    // Additional Step !
+
     public void Balance(){
         System.out.println("The Balance is "+Balance);
     }
@@ -35,6 +41,7 @@ public class BankAccount {
         BankAcc b1 = new BankAcc("MITE21055",1000000.000);
         b1.Deposit(1000);
         // System.out.println("The Balance is "+b1.Balance());
+        b1.displayAccountNumber();
         b1.Withdraw(1000);
         b1.Balance();
     }
