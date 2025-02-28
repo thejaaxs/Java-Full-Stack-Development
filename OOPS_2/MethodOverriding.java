@@ -2,12 +2,12 @@
 
 package OOPS_2;
 
-class Animal{
+class Animal1{
     public void makeSound(){
         System.out.println("Animal makes a sound !");
     }
 }
-class Dog extends Animal{
+class Dog1 extends Animal1{
     @Override
     public void makeSound(){
         System.out.println("Dog barks !");
@@ -15,9 +15,9 @@ class Dog extends Animal{
 }
 public class MethodOverriding {
     public static void main(String[] args) {
-        Animal anim = new Animal();
+        Animal1 anim = new Animal1();
         anim.makeSound();
-        Dog d = new Dog();
+        Dog1 d = new Dog1();
         d.makeSound();
     }   
 }
