@@ -2,13 +2,13 @@
 
 package OOPS_2;
 
-class Animal {
-    Animal(){
+class Animal3 {
+    Animal3(){
         System.out.println("Animal Constructor Called !");
     }
 }
-class Dog extends Animal {
-    Dog(){
+class Dog3 extends Animal3 {
+    Dog3(){
         super();
         System.out.println("Dog Constructor Called !");
     }
@@ -18,7 +18,7 @@ class Dog extends Animal {
 }
 public class SuperInheritance {
     public static void main(String[] args) {
-        Dog d = new Dog();
+        Dog3 d = new Dog3();
         d.bark();
     }
 }
