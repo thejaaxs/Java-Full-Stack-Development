@@ -2,26 +2,26 @@
 
 package OOPS_2;
 
-class Shape {
+class Shape2 {
     void draw(){
         System.out.println("Drawing a Shape !");
     }
 }
-class Circle extends Shape{
+class Circle2 extends Shape2{
     void draw(){
         System.out.println("Drawing a Circle !");
     }
 }
-class Rectangle extends Shape{
+class Rectangle2 extends Shape2{
     public void draw(){
         System.out.println("Drawing a Rectangle !");
     }
 }
 public class ShapeExample {
     public static void main(String[] args) {
-        Shape rectangle = new Rectangle();
+        Shape2 rectangle = new Rectangle2();
         rectangle.draw();
-        Shape circle = new Circle();
+        Shape2 circle = new Circle2();
         circle.draw();
     }
 }
