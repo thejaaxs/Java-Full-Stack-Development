@@ -1,14 +1,3 @@
-// Library Management 📚
-// Problem Statement:
-// Create a base class LibraryItem with:
-
-// Attributes: title, author
-// A method displayDetails().
-// Create two subclasses:
-
-// Book with an additional pageCount attribute.
-// Magazine with an additional issueNumber attribute.
-// Create objects and demonstrate inheritance.
 package OOPS_2;
 
 class libraryItem{
@@ -35,8 +24,23 @@ class Book extends libraryItem{
         System.out.println("Page Count : "+pageCount);
     }
 }
+class Magazine extends libraryItem{
+    int issueNumber ;
+    Magazine(String title,String author,int issueNumber){
+        super(title,author);
+        this.issueNumber = issueNumber ;
+    }
+    void displayDetails(){
+        super.displayDetails();
+        System.out.println("Issue Number : "+issueNumber);
+    }
+}
 public class LibraryExample{
     public static void main(String[] args) {
-        
+        Book book = new Book("Java Programming","Jhon Doe",500);
+        Magazine mag = new Magazine("Amazon","Jeff Bezoz",250);
+
+        mag.displayDetails();
+        book.displayDetails();
     }
 }
