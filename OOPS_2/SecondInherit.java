@@ -1,9 +1,9 @@
 package OOPS_2;
 
-class Account{
+class Account1{
     protected double balance ;
 
-    public Account(double balance){
+    public Account1(double balance){
         this.balance = balance ;
     }
 
@@ -14,9 +14,9 @@ class Account{
         System.out.println("The Balance is : "+balance);
     }
 }
-class SavingsAccount extends Account{
+class SavingsAccount1 extends Account1{
 
-    public SavingsAccount(double balance){
+    public SavingsAccount1(double balance){
         super(balance);
     }
         void withdraw(double amount){
@@ -26,8 +26,8 @@ class SavingsAccount extends Account{
             else balance -= amount ;
         }
 }
-class CurrentAccount extends Account{
-    public CurrentAccount(double balance){
+class CurrentAccount1 extends Account1{
+    public CurrentAccount1(double balance){
         super(balance);
     }
     void withdraw(double amount){
@@ -39,14 +39,14 @@ class CurrentAccount extends Account{
 }
 public class SecondInherit {
     public static void main(String[] args) {
-        SavingsAccount acc1 = new SavingsAccount(1000);
+        SavingsAccount1 acc1 = new SavingsAccount1(1000);
         acc1.displayBalance();
         acc1.deposit(1000);
         acc1.displayBalance();
         acc1.withdraw(1000);
         acc1.displayBalance();
         System.out.println();
-        CurrentAccount acc2 = new CurrentAccount(5000);
+        CurrentAccount1 acc2 = new CurrentAccount1(5000);
         acc2.displayBalance();
         acc2.deposit(1000);
         acc2.displayBalance();
