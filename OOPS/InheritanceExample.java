@@ -10,16 +10,15 @@ class Vehicle {
         this.type = type;
         this.speed = speed;
     }
-
     public void show() {
         System.out.println("Type: " + type + "\nSpeed: " + speed);
     }
 }
 
-class Car extends Vehicle {
+class Car1 extends Vehicle {
     String brand;
 
-    public Car(String type, int speed, String brand) {
+    public Car1(String type, int speed, String brand) {
         super(type, speed);
         this.brand = brand;
     }
@@ -32,7 +31,7 @@ class Car extends Vehicle {
 
 public class InheritanceExample {
     public static void main(String[] args) {
-        Car c1 = new Car("Four Wheeler", 300, "BMW");
+        Car1 c1 = new Car1("Four Wheeler", 300, "BMW");
         c1.carShow();
     }
 }
