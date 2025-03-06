@@ -1,15 +1,15 @@
 // Shape Example Using OOPS
 
-abstract class Shape{
+abstract class Shape1{
    abstract void draw();
 }
-class Circles extends Shape{
+class Circles1 extends Shape1{
     @Override
     void draw(){
         System.out.println("Circle is being Drawn !");
     }
 }
-class Rectangles extends Shape{
+class Rectangles extends Shape1{
     @Override
     void draw(){
         System.out.println("Rectangle is being Drawn !");
@@ -17,8 +17,8 @@ class Rectangles extends Shape{
 }
 public class thirdExample {
     public static void main(String[] args) {
-        Shape shape[] = {new Circles(),new Rectangles()};
-        for(Shape s : shape){
+        Shape1 shape[] = {new Circles1(),new Rectangles1()};
+        for(Shape1 s : shape){
             s.draw();
         }
     }
