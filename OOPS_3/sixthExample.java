@@ -1,22 +1,22 @@
 // Employee Example Using OOPS 
 
-abstract class Employee{
+abstract class Employees{
     abstract void calculateSalary();
 }
-class FullTimeEmployee extends Employee{
+class FullTimeEmployees extends Employees{
     void calculateSalary(){
         System.out.println("Full Time Employee Salary Calculated !");
     }
 }
-class PartTimeEmployee extends Employee{
+class PartTimeEmployees extends Employees{
     public void calculateSalary(){
         System.out.println("Part Time Employee Salary Calculated !");
     }
 }
 public class sixthExample {
     public static void main(String[] args) {
-        Employee emp[] = {new FullTimeEmployee() , new PartTimeEmployee()};
-        for(Employee e : emp){
+        Employees emps[] = {new FullTimeEmployees() , new PartTimeEmployees()};
+        for(Employees e : emps){
             e.calculateSalary();
         }
     }
