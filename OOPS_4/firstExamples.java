@@ -1,7 +1,5 @@
 // Person Example using OOPS !
 
-package OOPS_4;
-
 class Person {
     private int age;
     private String name;
@@ -24,7 +22,7 @@ class Person {
     }
 }
 
-public class firstExample {
+public class firstExamples {
     public static void main(String[] args) {
         Person boy = new Person(20,"Roshan");
         System.out.println("Name : "+boy.getName());
