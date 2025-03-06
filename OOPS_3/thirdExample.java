@@ -9,7 +9,7 @@ class Circles1 extends Shape1{
         System.out.println("Circle is being Drawn !");
     }
 }
-class Rectangles extends Shape1{
+class Rectangles1 extends Shape1{
     @Override
     void draw(){
         System.out.println("Rectangle is being Drawn !");
