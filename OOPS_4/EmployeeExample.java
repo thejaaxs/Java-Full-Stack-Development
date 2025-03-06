@@ -1,6 +1,6 @@
 // Employee Example Using OOPS
 
-package OOPS_4;
+
 
 class Employee {
     private String name;
