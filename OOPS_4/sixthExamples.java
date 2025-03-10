@@ -33,6 +33,10 @@ class Products {
 
 public class sixthExamples {
     public static void main(String[] args) {
-
+        Products item1 = new Products("Iphone",210000.100,2);
+        System.out.println("Total Price : Rs."+item1.getTotalPrice());
+        item1.setQuantity(1);
+        item1.setPrice(100000.100); // Price drop !
+        System.out.println("Total Price : Rs."+item1.getTotalPrice());
     }
 }
