@@ -23,11 +23,34 @@ class Cars2{
             speed -=5;
         }
         else speed = 0 ;
+        System.out.println("Braked ! . Speed: "+speed+" Km/Hr");
     }
-    
+    public void refuel(int fuel){
+        if(fuel>0){
+            fuelLevel += fuel;
+            System.out.println("Refilled . Fuel Level : "+fuelLevel);
+        }
+        else System.out.println("Invalid Fuel Amount !");
+    }
+    public int getSpeed(){
+        return speed;
+    }
+    public int getFuelLevel(){
+        return fuelLevel;
+    }
+    public String getBrand(){
+        return brand;
+    }
 }
 public class fourthExamples{
     public static void main(String[] args){
-        
+        Cars2 car = new Cars2("Toyota",350,50);
+        car.accelerate();
+        car.accelerate();
+        car.accelerate();
+        car.brake();
+        car.brake();
+        System.out.println("Fuel Level : "+car.getFuelLevel());
+        car.refuel(10);
     }
 }
