@@ -46,6 +46,9 @@ class Students2 {
 
 public class fifthExamples {
     public static void main(String[] args) {
-        
+        Students2 arya = new Students2("Aryan", 42105, 95);
+        System.out.println(arya.getName() + " grade is " + arya.calculateGrade());
+        Students2 poorvi = new Students2("Poorviksha", 45251, 85);
+        System.out.println(poorvi.getName() + " grade is " + poorvi.calculateGrade());
     }
 }
