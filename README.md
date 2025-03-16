@@ -82,7 +82,7 @@ This roadmap will guide you through the complete process of becoming a Java Full
 - Connecting Frontend (React) with Backend (Spring Boot)
 - Deploying on platforms like Heroku or Vercel
 
-**📌 Hands-On Project:** Deploy your "Student Management System" as a full-stack web app with a working frontend and backend.
+**📌 Hands-On Project:** Deploy your "Student Management System" as a full-stack web app with a working frontend and backend !
 
 ---
 ## Key Projects for Portfolio
