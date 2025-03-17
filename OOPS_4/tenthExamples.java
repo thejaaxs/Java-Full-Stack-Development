@@ -33,8 +33,9 @@ class ShoppingCart {
         }
         return total;
     }
-    public void checkout(){
-        System.out.println("Total Price : "+getTotalPrice());
+
+    public void checkout() {
+        System.out.println("Total Price : " + getTotalPrice());
         items.clear();
         prices.clear();
         System.out.println("Checkout Complete , Cart is now empty !");
@@ -44,11 +45,11 @@ class ShoppingCart {
 public class tenthExamples {
     public static void main(String[] args) {
         ShoppingCart cart = new ShoppingCart();
-        cart.addItem("Laptop",1000);
-        cart.addItem("Iphone",500);
-        System.out.println("Total Price : "+cart.getTotalPrice());
+        cart.addItem("Laptop", 1000);
+        cart.addItem("Iphone", 500);
+        System.out.println("Total Price : " + cart.getTotalPrice());
         cart.removeItem("Iphone");
-        System.out.println("Total Price : "+cart.getTotalPrice());
+        System.out.println("Total Price : " + cart.getTotalPrice());
         cart.checkout();
     }
 }
