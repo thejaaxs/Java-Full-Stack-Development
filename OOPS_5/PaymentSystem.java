@@ -1,4 +1,4 @@
-// Payment System Using Abstract Class !
+// Payment System Using OOPS !
 
 abstract class Payments1 {
     abstract void processPayment(double payment); // defines only what should be done !
